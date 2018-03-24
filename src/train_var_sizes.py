@@ -137,5 +137,5 @@ print('\n==== outputting histories')
 import pickle
 path = '/home/ubuntu/image_classification/results/circ/circ.p'
 with open(path, 'wb') as output:
-    pickle.dump(hist, output)
+    pickle.dump(hist_list, output)
 print('\n==== outputted histories to {}'.format(path))
